@@ -543,6 +543,7 @@ feature -- Removal single free
 			-- VIENE RIMPIAZZATA DA REMOVE_EARLIEST
 			-- Rimuove il primo elemento che contiene `a_value', se esiste
 			-- Aggiorna `active_element', se necessario, al suo successore, se esiste, altrimenti al suo predecessore
+			-- Giulia Iezzi 2020/03/10
 		require
 			lista_non_vuota: count > 0
 		local
